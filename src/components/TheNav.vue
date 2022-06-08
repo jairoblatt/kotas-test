@@ -12,8 +12,8 @@ import Kotas from "@/assets/svg/kotas.svg?component";
 </template>
 <style scoped lang="postcss">
 .nav {
-  @apply h-14 bg-white flex items-center md:justify-start;
-  @apply box-shadow-sm justify-center px-3;
+  @apply h-14 bg-white flex items-center px-3;
+  @apply box-shadow-sm justify-center md:justify-start;
 }
 
 .nav__logo {
