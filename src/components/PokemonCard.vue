@@ -35,7 +35,7 @@ function onImageError() {
   <Card
     class="pokemon-card"
     :class="{
-      'pokemon-card--hover': !noDetails,
+      'pokemon-card--hover': !noDetails && !preview,
       'pokemon-card--no--details': noDetails,
     }"
   >
