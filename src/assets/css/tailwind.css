@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .box-shadow-sm {
+    box-shadow: 0px 1px 1px #e1e1e1;
+  }
+
+  .box-shadow-md {
+    box-shadow: 0px 4px 20px #e1e1e1;
+  }
+}
